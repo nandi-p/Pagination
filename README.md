@@ -1,3 +1,10 @@
+# Description
+
+In this project I am trying to accomplish the following tasks
+
+1. Fetch data from external API
+2. Paginate the fetched data
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
