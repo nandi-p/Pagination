@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #bbdefb;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,70 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  margin: 1rem;
+}
+
+.title {
+  text-align: center;
+  color: #2e42ad;
+  padding: 2rem 0 1rem 0;
+  margin: 1rem;
+}
+
+.user {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow: scroll;
+}
+.userContainer {
+  margin-top: 1rem;
+  text-align: center;
+  background-color: #0d47a1;
+  padding: 1rem;
+  width: 10rem;
+  transition: all 0.5s ease;
+  margin: 1rem;
+}
+
+.userContainer img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.userContainer:hover {
+  transform: scale(1.1);
+}
+
+.userContainer h4 {
+  margin: 0.2rem;
+  word-wrap: break-word;
+  color: #caf0f8;
+}
+.userContainer:hover {
+  transform: scale(1.1);
+}
+.userContainer a {
+  margin-bottom: 1rem;
+  text-decoration: none;
+  cursor: hand;
+  color: #90e0ef;
+}
+.pageNumbers {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+.btn {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: rgb(187, 229, 240);
+}
+.selected {
+  background-color: #202180;
+  color: white;
 }

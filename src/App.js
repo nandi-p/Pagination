@@ -1,9 +1,11 @@
-import './App.css';
+import Pagination from './Components/Pagination';
 
 function App() {
   return (
     <>
-      <h1>Pagination....</h1>
+      <div className='container'>
+        <Pagination />
+      </div>
     </>
   );
 }
